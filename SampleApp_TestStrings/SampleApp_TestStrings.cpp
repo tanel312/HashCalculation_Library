@@ -6,7 +6,7 @@ HashCalculation_Library is distributed in the hope that it will be useful, but W
 
 https://github.com/tanel312  www.tanels.com  tanel.utilities@gmail.com
 */
-#include "..\pch.h"
+#include "..\HashCalculation_Library.h"
 
 #pragma comment (lib, "..\\Debug\\HashCalculation_Library.lib")
 
