@@ -39,7 +39,6 @@ void SHA01_Compute(
     uint64_t Length, // input; size of input data in bytes < 2^64 bytes
     uint8_t* Hash, // output; byte (8-bit), array size 20 for SHA0 / 20 for SHA1
     uint8_t Type); // input; 0 for SHA224 or 1 for SHA256
-bool SHA01_Compute1(uint8_t* Inp, uint64_t Length, uint8_t* Hash, uint8_t Type);
 
 // computes hash iaw Hash2 224-bit or 256-bit algortihm
 void SHA224_256_Compute(
