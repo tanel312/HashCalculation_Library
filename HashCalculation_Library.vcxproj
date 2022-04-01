@@ -165,9 +165,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="SHA0_1.cpp" />
-    <ClCompile Include="SHA224_256.cpp" />
-    <ClCompile Include="SHA384_512.cpp" />
+    <ClCompile Include="SHA01_Functions.cpp" />
+    <ClCompile Include="SHA2_Functions.cpp" />
+    <ClCompile Include="SHA3_SHAKE_Functions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="HashCalculation_Library.rc" />

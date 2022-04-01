@@ -13,20 +13,41 @@ https://github.com/tanel312  www.tanels.com  tanel.utilities@gmail.com
 #include "SHA_tables.h"
 #include "HashCalculation_Library.h"
 
-union data32Struct
-{
-    struct
-    {
-        uint8_t b[4];
-    } bytes;
-    uint32_t w32;
-};
+#define BLOCK512 64 // 512 bits in bytes
+#define BLOCK1024 128 // 1024 bits in bytes
+#define BLOCK1600 200 // 1600 bits in bytes
 
-union data64Struct
+typedef union 
 {
-    struct
-    {
-        uint8_t b[8];
-    } bytes;
+    uint8_t b[4];
+    uint32_t w32;
+} data32Struct;
+typedef union 
+{
+    uint8_t b[8];
+    uint32_t w32[2];
     uint64_t w64;
-};
+} data64Struct;
+typedef union
+{
+    uint8_t b[64];
+    uint32_t w32[16];
+    uint64_t w64[8];
+} data512bit;
+typedef union
+{
+    uint8_t b[128];
+    uint32_t w32[32];
+    uint64_t w64[16];
+} data1024bit;
+typedef union
+{
+    uint8_t b[200];
+    uint64_t w64[25];
+    uint64_t w[5][5];
+} data1600bit;
+
+void SHA01_Functions(uint8_t* Input, uint32_t* Hash, uint8_t Type);
+void SHA224_256_Functions(uint8_t* Input, uint32_t* Hash, uint8_t Type);
+void SHA384_512_Functions(uint8_t* Input, uint64_t* Hash, uint8_t Type);
+void SHA3_Functions(uint64_t* Input);

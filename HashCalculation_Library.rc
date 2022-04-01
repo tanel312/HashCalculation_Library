@@ -69,12 +69,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "Tanel"
             VALUE "FileDescription", "Hash Code Calculation Library"
-            VALUE "FileVersion", "1.0.0.1"
+            VALUE "FileVersion", "2.0.0.0"
             VALUE "InternalName", "HashCalc.lib"
             VALUE "LegalCopyright", "Copyright (C) 2022"
             VALUE "OriginalFilename", "HashCalc.lib"
             VALUE "ProductName", "HashCalculation_Library"
-            VALUE "ProductVersion", "1.0.0.1"
+            VALUE "ProductVersion", "2.0.0.0"
         END
     END
     BLOCK "VarFileInfo"

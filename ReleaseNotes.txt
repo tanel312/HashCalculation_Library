@@ -1,1 +1,9 @@
 March 9, 2022; initial release
+April 1, 2022; second release
+Changes:
+added SHA-3 variants 224-bit, 256-bit, 384-bit, 512-bit, SHAKE128 and SHAKE256
+restructered SHA0, SHA1 and SHA2 to reduce memory usage (eliminated double buffering)
+fixed potential problems
+cleaned up
+added comments
+now supports bigger files

@@ -38,13 +38,13 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SHA0_1.cpp">
+    <ClCompile Include="SHA01_Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SHA224_256.cpp">
+    <ClCompile Include="SHA2_Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SHA384_512.cpp">
+    <ClCompile Include="SHA3_SHAKE_Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

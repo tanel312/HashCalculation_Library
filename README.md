@@ -1,7 +1,7 @@
 # HashCalculation_Library
 SHA-0, SHA1, SHA2, SHA224, SHA256, SHA384, SHA 512 library
 
-Secure Hashing Algorithm (SHA) Calculation Library provides functionality to compute hash value of input data in the size of upto 2^32 bytes. 
+Secure Hashing Algorithm (SHA) Calculation Library provides functionality to compute hash value of input data in the size of upto 2^64 bytes. 
 Supported SHA types are listed below;
 
 SHA-0
@@ -12,12 +12,20 @@ SHA2-384
 SHA2-512
 SHA2-512/224
 SHA2-512/256
-A sample console application; SampleApp_TestString is provided. It calculates hash code for famous "The quick brown fox jumps over the lazy dog" and "" (blank) strings
-and compares the result with known value.
+SHA3-224
+SHA3-256
+SHA3-384
+SHA3-512
+SHAKE128
+SHAKE256
 
 The header file listed below are provided to use library;
 
 HashCalculation_Library.h includes; (required)
+
+A sample console application; SampleApp_TestString is provided. It calculates hash code for famous "The quick brown fox jumps over the lazy dog" and "" (blank) strings
+and compares the result with known value.
+
 
 /* HashCalculation_Library : Defines the functions for the static library.
 
