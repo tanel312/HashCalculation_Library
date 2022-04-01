@@ -23,6 +23,8 @@ The header file listed below are provided to use library;
 
 HashCalculation_Library.h includes; (required)
 
+compiled library files are available in the ready2use directory.
+
 A sample console application; SampleApp_TestString is provided. It calculates hash code for famous "The quick brown fox jumps over the lazy dog" and "" (blank) strings
 and compares the result with known value.
 
