@@ -1,5 +1,5 @@
 # HashCalculation_Library
-SHA-0, SHA1, SHA2, SHA224, SHA256, SHA384, SHA 512 library
+SHA-0, SHA1, SHA2, SHA224, SHA256, SHA384, SHA512, SHA512-224, SHA512-256, SHA3-224, SHA3-256, SHA3-384, SHA3-512, SHAKE128, SHAKE256 library
 
 Secure Hashing Algorithm (SHA) Calculation Library provides functionality to compute hash value of input data in the size of upto 2^64 bytes. 
 Supported SHA types are listed below;
